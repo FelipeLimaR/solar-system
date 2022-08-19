@@ -23,7 +23,7 @@ PlanetCard.propTypes = {
 };
 
 PlanetCard.defaultProps = {
-  planetName: 'Terra',
+  planetName: 'ceres',
   planetImage: 'Terra',
 };
 

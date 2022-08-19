@@ -1,3 +1,8 @@
-.App {
+/* .App { */
+/* } */
+
+body {
   text-align: center;
+  color:wheat;
+  background-image: url("./images/background.png");
 }
