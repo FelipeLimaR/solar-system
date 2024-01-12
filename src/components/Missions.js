@@ -1,3 +1,4 @@
+import React from 'react';
 import MissionCard from './MissionCard';
 import Title from './Title';
 import missions from '../data/missions';
