@@ -1,15 +1,13 @@
-import React from 'react';
-
-class Header extends React.Component {
-  render() {
-    return (
-      <header>
-        <h1>
+function Header() {
+  return (
+    <header>
+      <h1>
+        <span id="span-header">
           Sistema Solar
-        </h1>
-      </header>
-    );
-  }
+      </span>
+          </h1>
+    </header>
+  );
 }
 
 export default Header;

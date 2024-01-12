@@ -1,20 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class PlanetCard extends React.Component {
-  render() {
-    const { planetName } = this.props;
-    const { planetImage } = this.props;
-    return (
-      <div data-testid="planet-card">
+function PlanetCard({ planetName, planetImage }) {
+  return (
+    <div data-testid="planet-card">
+      <h3>
         <p data-testid="planet-name">
           {planetName}
-          <p />
         </p>
-        <img src={ planetImage } alt={ `Planeta ${planetName}` } />
-      </div>
-    );
-  }
+      </h3>
+      <img
+        src={ `${planetImage}` }
+        alt={ `Planeta ${planetName}` }
+      />
+    </div>
+  );
 }
 
 PlanetCard.propTypes = {
@@ -23,7 +23,7 @@ PlanetCard.propTypes = {
 };
 
 PlanetCard.defaultProps = {
-  planetName: 'ceres',
+  planetName: 'Ceres',
   planetImage: 'Terra',
 };
 

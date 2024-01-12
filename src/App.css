@@ -3,3 +3,65 @@ body {
   color: white;
   text-align: center;
 }
+
+img {
+  width: 230px;
+}
+
+.App {
+  text-align: center;
+}
+
+.title-class {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+}
+
+#span-header {
+  font-size: 50px;
+}
+
+#solar-sistem-id {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#planet-cards-id {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#missions-id {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#mission-cards-id {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mission-card-class {
+  border-radius: 8%;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgba(170, 206, 238, 0.329);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bolder;
+  width: 200px;
+  margin: 10px;
+}
+
+.mission-card-class h3 {
+  background-color: rgb(146, 139, 139);
+}
+
+
